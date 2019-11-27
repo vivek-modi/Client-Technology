@@ -1,0 +1,8 @@
+{
+    "Car": {
+        "Name": "Mondeo",
+        "Color": "Blue",
+        "Style": "Hatchback",
+        "Price": "250000"
+    }
+}
