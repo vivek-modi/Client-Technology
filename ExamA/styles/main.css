@@ -1,0 +1,98 @@
+html {
+    background-color: darkgray;
+}
+
+body {
+    width: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    border: 10px dashed orange;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin: 1em auto 1em auto;
+}
+
+header {
+    height: 120px;
+    border-bottom: 4px solid orange;
+}
+
+#firstImage {
+    margin: 0.5em;
+    float: left;
+}
+
+h1 {
+    font-size: 200%;
+    margin-left: 5em;
+}
+
+h2 {
+    font-size: 150%;
+    margin-left: 7em;
+}
+
+
+
+nav {
+    width: 300px;
+    height: 340px;
+    padding-top: 0.5em;
+}
+
+section{
+    padding-top: 0.5em;
+}
+
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: nav;
+}
+
+.item3 {
+    grid-area: section;
+}
+
+.item4 {
+    grid-area: footer;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'nav section'
+        'nav section'
+        'footer footer';
+}
+
+a{
+    text-decoration: none;
+ 
+    color: orange;
+    font-weight: bold;
+}
+
+a:hover{
+    color:green;
+}
+
+ul{
+    padding-left: 0;
+   line-height: 2;
+    list-style: none;
+}
+
+footer{
+    margin-top: 1em;
+    text-align: center;
+    border-top: 4px solid orange;
+    color:#bbb;
+}
+
+#fetchimage{
+    width: 200px;
+}
