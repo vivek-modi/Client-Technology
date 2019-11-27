@@ -1,0 +1,9 @@
+<BookStore>
+    <Book>
+        <Img value="/images/b4.jpg"></Img>
+        <Name>D</Name>
+        <Author>D</Author>
+        <Year>D</Year>
+        <Pages>D</Pages>
+    </Book>
+</BookStore>
